@@ -12,5 +12,5 @@ filterStream(file.name = "tweetsGBBO.json", # Save tweets in a json file
              verbose = TRUE)
 
 #Uses streamR 
-tweetsPARSED <- parseTweets("/Users/rebekahparnham/Documents/W/R/B/tweetsGBBO.json", simplify = FALSE, verbose = TRUE) 
+tweetsPARSED <- parseTweets("tweetsGBBO.json", simplify = FALSE, verbose = TRUE) 
 #47,813 tweets
