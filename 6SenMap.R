@@ -1,7 +1,7 @@
 #Sentiment Heat map
 #have your tweets with encoding changed saved to "text"
 ##Sentiment 
-require(syuzhet)
+install.library(syuzhet)
 library(syuzhet)
 
 #Get sentiment values into "sen"
