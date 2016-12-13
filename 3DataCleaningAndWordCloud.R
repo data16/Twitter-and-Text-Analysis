@@ -65,7 +65,7 @@ docs <- tm_map(docs, stripWhitespace)
 docs <- tm_map(docs, stemDocument)
 
 ##Document term matrix, which describes the frequency of the words in the text
-dtm <- TermDocumentMatrix(docs)
+dtm <- DocumentTermMatrix(docs)
 
 #Sorts to give a list of most common words and their frequencies (mostly head displays this)
 m <- as.matrix(dtm)
