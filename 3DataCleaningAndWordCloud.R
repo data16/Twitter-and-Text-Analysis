@@ -49,7 +49,7 @@ docs <- tm_map(docs, content_transformer(tolower))
 docs <- tm_map(docs, removeNumbers)
 
 #Remove english common stopwords
-docs <- tm_map(docs, removeWords, stopwords("english"))
+docs <- tm_map(docs, removeWords, stopwords("en"))
 
 #Remove your own stop word
 #specify your stopwords as a character vector
